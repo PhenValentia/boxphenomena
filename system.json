@@ -30,7 +30,7 @@
     "primaryTokenAttribute": "health",
     "secondaryTokenAttribute": "power",
     "url": "https://github.com/PhenValentia/boxphenomena",
-    "manifest": "https://github.com/PhenValentia/boxphenomena/blob/main/system.json",
+    "manifest": "https://raw.githubusercontent.com/PhenValentia/boxphenomena/main/system.json",
     "download": "https://github.com/PhenValentia/boxphenomena/archive/refs/heads/main.zip",
     "license": "LICENSE.txt",
     "changelog": "CHANGELOG.md"
