@@ -1,23 +1,27 @@
-export const BOILERPLATE = {};
+export const BOXPHENOMENA = {};
 
 /**
- * The set of Ability Scores used within the sytem.
+ * The set of Stat Scores used within the sytem.
  * @type {Object}
  */
- BOILERPLATE.abilities = {
-  "str": "BOILERPLATE.AbilityStr",
-  "dex": "BOILERPLATE.AbilityDex",
-  "con": "BOILERPLATE.AbilityCon",
-  "int": "BOILERPLATE.AbilityInt",
-  "wis": "BOILERPLATE.AbilityWis",
-  "cha": "BOILERPLATE.AbilityCha"
+ BOXPHENOMENA.statistics = {
+  "fit": "BOXPHENOMENA.StatFit",
+  "agi": "BOXPHENOMENA.StatAgi",
+  "awa": "BOXPHENOMENA.StatAwa",
+  "prec": "BOXPHENOMENA.StatPrec",
+  "ins": "BOXPHENOMENA.StatIns",
+  "edu": "BOXPHENOMENA.StatEdu",
+  "spi": "BOXPHENOMENA.StatSpi",
+  "pres": "BOXPHENOMENA.StatPres"
 };
 
-BOILERPLATE.abilityAbbreviations = {
-  "str": "BOILERPLATE.AbilityStrAbbr",
-  "dex": "BOILERPLATE.AbilityDexAbbr",
-  "con": "BOILERPLATE.AbilityConAbbr",
-  "int": "BOILERPLATE.AbilityIntAbbr",
-  "wis": "BOILERPLATE.AbilityWisAbbr",
-  "cha": "BOILERPLATE.AbilityChaAbbr"
+BOXPHENOMENA.statAbbreviations = {
+  "fit": "BOXPHENOMENA.StatFitAbbr",
+  "agi": "BOXPHENOMENA.StatAgiAbbr",
+  "awa": "BOXPHENOMENA.StatAwaAbbr",
+  "prec": "BOXPHENOMENA.StatPrecAbbr",
+  "ins": "BOXPHENOMENA.StatInsAbbr",
+  "edu": "BOXPHENOMENA.StatEduAbbr",
+  "spi": "BOXPHENOMENA.StatSpiAbbr",
+  "pres": "BOXPHENOMENA.StatPresAbbr"
 };

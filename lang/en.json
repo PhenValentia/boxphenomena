@@ -1,22 +1,26 @@
 {
-  "BOILERPLATE.AbilityStr": "Strength",
-  "BOILERPLATE.AbilityCon": "Constitution",
-  "BOILERPLATE.AbilityDex": "Dexterity",
-  "BOILERPLATE.AbilityInt": "Intelligence",
-  "BOILERPLATE.AbilityWis": "Wisdom",
-  "BOILERPLATE.AbilityCha": "Charisma",
+  "BOXPHENOMENA.StatFit": "Fitness",
+  "BOXPHENOMENA.StatAgi": "Agility",
+  "BOXPHENOMENA.StatAwa": "Awareness",
+  "BOXPHENOMENA.StatPrec": "Precision",
+  "BOXPHENOMENA.StatIns": "Inspiration",
+  "BOXPHENOMENA.StatEdu": "Education",
+  "BOXPHENOMENA.StatSpi": "Spirit",
+  "BOXPHENOMENA.StatPres": "Presence",
 
-  "BOILERPLATE.AbilityStrAbbr": "str",
-  "BOILERPLATE.AbilityConAbbr": "con",
-  "BOILERPLATE.AbilityDexAbbr": "dex",
-  "BOILERPLATE.AbilityIntAbbr": "int",
-  "BOILERPLATE.AbilityWisAbbr": "wis",
-  "BOILERPLATE.AbilityChaAbbr": "cha",
+  "BOXPHENOMENA.StatFitAbbr": "Fit",
+  "BOXPHENOMENA.StatAgiAbbr": "Agi",
+  "BOXPHENOMENA.StatAwaAbbr": "Awa",
+  "BOXPHENOMENA.StatPrecAbbr": "Prec",
+  "BOXPHENOMENA.StatInsAbbr": "Ins",
+  "BOXPHENOMENA.StatEduAbbr": "Edu",
+  "BOXPHENOMENA.StatSpiAbbr": "Spi",
+  "BOXPHENOMENA.StatPresAbbr": "Pres",
 
-  "BOILERPLATE.EffectCreate": "Create Effect",
-  "BOILERPLATE.EffectToggle": "Toggle Effect",
-  "BOILERPLATE.EffectEdit": "Edit Effect",
-  "BOILERPLATE.EffectDelete": "Delete Effect",
+  "BOXPHENOMENA.EffectCreate": "Create Effect",
+  "BOXPHENOMENA.EffectToggle": "Toggle Effect",
+  "BOXPHENOMENA.EffectEdit": "Edit Effect",
+  "BOXPHENOMENA.EffectDelete": "Delete Effect",
 
-  "BOILERPLATE.Add": "Add"
+  "BOXPHENOMENA.Add": "Add"
 }
