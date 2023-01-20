@@ -36,7 +36,7 @@ export class BoxPhenomenaActorSheet extends ActorSheet {
     const actorData = this.actor.toObject(false);
 
     // Add the actor's data to context.data for easier access, as well as flags.
-    context.system = actorData.system;
+    //context.system = actorData.system;
     context.flags = actorData.flags;
 
     // Prepare character data and items.
@@ -68,8 +68,9 @@ export class BoxPhenomenaActorSheet extends ActorSheet {
    */
   _prepareCharacterData(context) {
     // Handle ability scores.
-    for (let [k, v] of Object.entries(context.system.statistics)) {
-      v.label = game.i18n.localize(CONFIG.BOXPHENOMENA.statistics[k]) ?? k;
+    for (let [k, v] of Object.entries(context.system.abilities)) {
+      console.warn(k);
+      v.label = game.i18n.localize(CONFIG.BOXPHENOMENA.abilities[k]) ?? k;
     }
   }
 

@@ -23,7 +23,7 @@
           "value": 1
         }
       },
-      "statistics": {
+      "abilities": {
         "fit": {
           "value": 0
         },
@@ -66,7 +66,7 @@
       "templates": ["base"],
       "quantity": 1,
       "weight": 0,
-      "formula": "d20 + @str.mod + ceil(@lvl / 2)"
+      "formula": "d20 + @fit.mod + ceil(@lvl / 2)"
     },
     "feature": {
       "templates": ["base"]

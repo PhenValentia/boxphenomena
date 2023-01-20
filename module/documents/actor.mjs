@@ -48,10 +48,12 @@ export class BoxPhenomenaActor extends Actor {
     // Make modifications to data here. For example:
     const systemData = actorData.system;
 
+    //Object.entries(context.system.abilities)
     // Loop through ability scores, and add their modifiers to our sheet output.
-    for (let [key, stat] of Object.entries(systemData.statistics)) {
+    //console.warn(context.systemData.abilities);
+    for (let [key, ability] of Object.entries(systemData.abilities)) {
       // Calculate the modifier using d20 rules.
-      stat.mod = stat.value;
+      ability.mod = Math.floor((ability.value - 10) / 2);
     }
   }
 

@@ -1,27 +1,27 @@
 export const BOXPHENOMENA = {};
 
 /**
- * The set of Stat Scores used within the sytem.
+ * The set of Ability Scores used within the sytem.
  * @type {Object}
  */
- BOXPHENOMENA.statistics = {
-  "fit": "BOXPHENOMENA.StatFit",
-  "agi": "BOXPHENOMENA.StatAgi",
-  "awa": "BOXPHENOMENA.StatAwa",
-  "prec": "BOXPHENOMENA.StatPrec",
-  "ins": "BOXPHENOMENA.StatIns",
-  "edu": "BOXPHENOMENA.StatEdu",
-  "spi": "BOXPHENOMENA.StatSpi",
-  "pres": "BOXPHENOMENA.StatPres"
+ BOXPHENOMENA.abilities = {
+  "fit": "BOXPHENOMENA.AbilityFit",
+  "agi": "BOXPHENOMENA.AbilityAgi",
+  "awa": "BOXPHENOMENA.AbilityAwa",
+  "prec": "BOXPHENOMENA.AbilityPrec",
+  "ins": "BOXPHENOMENA.AbilityIns",
+  "edu": "BOXPHENOMENA.AbilityEdu",
+  "spi": "BOXPHENOMENA.AbilitySpi",
+  "pres": "BOXPHENOMENA.AbilityPres"
 };
 
-BOXPHENOMENA.statAbbreviations = {
-  "fit": "BOXPHENOMENA.StatFitAbbr",
-  "agi": "BOXPHENOMENA.StatAgiAbbr",
-  "awa": "BOXPHENOMENA.StatAwaAbbr",
-  "prec": "BOXPHENOMENA.StatPrecAbbr",
-  "ins": "BOXPHENOMENA.StatInsAbbr",
-  "edu": "BOXPHENOMENA.StatEduAbbr",
-  "spi": "BOXPHENOMENA.StatSpiAbbr",
-  "pres": "BOXPHENOMENA.StatPresAbbr"
+BOXPHENOMENA.abilityAbbreviations = {
+  "fit": "BOXPHENOMENA.AbilityFitAbbr",
+  "agi": "BOXPHENOMENA.AbilityAgiAbbr",
+  "awa": "BOXPHENOMENA.AbilityAwaAbbr",
+  "prec": "BOXPHENOMENA.AbilityPrecAbbr",
+  "ins": "BOXPHENOMENA.AbilityInsAbbr",
+  "edu": "BOXPHENOMENA.AbilityEduAbbr",
+  "spi": "BOXPHENOMENA.AbilitySpiAbbr",
+  "pres": "BOXPHENOMENA.AbilityPresAbbr"
 };
