@@ -36,7 +36,7 @@ export class BoxPhenomenaActorSheet extends ActorSheet {
     const actorData = this.actor.toObject(false);
 
     // Add the actor's data to context.data for easier access, as well as flags.
-    //context.system = actorData.system;
+    context.system = actorData.system;
     context.flags = actorData.flags;
 
     // Prepare character data and items.
@@ -93,9 +93,7 @@ export class BoxPhenomenaActorSheet extends ActorSheet {
       4: [],
       5: [],
       6: [],
-      7: [],
-      8: [],
-      9: []
+      7: []
     };
 
     // Iterate through items, allocating to containers

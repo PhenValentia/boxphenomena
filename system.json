@@ -1,37 +1,41 @@
 {
-    "id": "boxphenomena",
-    "title": "Box Phenomena",
-    "description": "A game of adults who used to be kids.",
-    "version": "1.0.0",
-    "compatibility": {
-        "minimum": 10,
-        "verified": "10.287",
-        "maximum": 10
-    },
-    "authors": [
-        {
-            "name": "Nicholas Salter (PhenValentia)"
-        }
-    ],
-    "esmodules": [ "module/boxphenomena.mjs" ],
-    "styles": [ "css/boxphenomena.css" ],
-    "scripts": [],
-    "packs": [],
-    "languages": [
-        {
-            "lang": "en",
-            "name": "English",
-            "path": "lang/en.json"
-        }
-    ],
-    "gridDistance": 1,
-    "gridUnits": "m",
-    "initiative": "2d6 + @agility + @readiness",
-    "primaryTokenAttribute": "health",
-    "secondaryTokenAttribute": "power",
-    "url": "https://github.com/PhenValentia/boxphenomena",
-    "manifest": "https://raw.githubusercontent.com/PhenValentia/boxphenomena/main/system.json",
-    "download": "https://github.com/PhenValentia/boxphenomena/archive/refs/heads/main.zip",
-    "license": "LICENSE.txt",
-    "changelog": "CHANGELOG.md"
+  "id": "boxphenomena",
+  "title": "Box Phenomena",
+  "description": "A game of adults who used to be kids.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.287",
+    "maximum": "10"
+  },
+  "authors": [
+    {
+      "name": "Nicholas Salter (PhenValentia)",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "module/boxphenomena.mjs"
+  ],
+  "styles": [
+    "css/boxphenomena.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "gridDistance": 1,
+  "gridUnits": "m",
+  "initiative": "2d6 + @agility + @readiness",
+  "primaryTokenAttribute": "health",
+  "secondaryTokenAttribute": "power",
+  "url": "https://github.com/PhenValentia/boxphenomena",
+  "manifest": "https://raw.githubusercontent.com/PhenValentia/boxphenomena/main/system.json",
+  "download": "https://github.com/PhenValentia/boxphenomena/archive/refs/heads/main.zip",
+  "license": "LICENSE.txt",
+  "changelog": "CHANGELOG.md"
 }

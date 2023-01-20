@@ -63,16 +63,11 @@
           use both the "grid" and "grid-Ncol" class where "N" can be any number
           from 1 to 12 and will create that number of columns.  --}}
           <div class="ability flexcol">
-            <div class="ability flexrow flex-group-center">
-              <label for="boxphenomena.abilities.fit.value" class="resource-label rollable flexlarge align-left" data-roll="2d6+@ability.{{fit}}.mod" data-label="{{boxphenomena.fit.label}}">{{fit.label}}</label>
-              <input type="text" name="boxphenomena.abilities.fit.value" value="{{fit.value}}" data-dtype="Number"/>
-              <span class="ability-mod rollable" data-roll="2d6+@ability.{{fit}}.mod" data-label="{{fit.label}}">{{numberFormat fit.mod decimals=0 sign=true}}</span>
-            </div>
             {{#each system.abilities as |ability key|}}
             <div class="ability flexrow flex-group-center">
-              <label for="system.ability.{{key}}.value" class="resource-label rollable flexlarge align-left" data-roll="2d6+@ability.{{key}}.mod" data-label="{{ability.label}}">{{ability.label}}</label>
-              <input type="text" name="system.ability.{{key}}.value" value="{{ability.value}}" data-dtype="Number"/>
-              <span class="ability-mod rollable" data-roll="2d6+@ability.{{key}}.mod" data-label="{{ability.label}}">{{numberFormat ability.mod decimals=0 sign=true}}</span>
+              <label for="system.abilities.{{key}}.value" class="resource-label rollable flexlarge align-left" data-roll="2d6+@abilities.{{key}}.value" data-label="{{ability.label}}">{{ability.label}}</label>
+              <input type="text" name="system.abilities.{{key}}.value" value="{{ability.value}}" data-dtype="Number"/>
+              <span class="ability-mod rollable" data-roll="2d6+@abilities.{{key}}.value" data-label="{{ability.label}}">{{numberFormat ability.value decimals=0 sign=true}}</span>
             </div>
             {{/each}}
           </div>
