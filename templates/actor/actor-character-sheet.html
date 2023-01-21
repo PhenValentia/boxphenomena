@@ -47,7 +47,7 @@
     <a class="item" data-tab="items">Equipment</a>
     <a class="item" data-tab="effects">Status</a>
     <a class="item" data-tab="spells">Spells</a>
-    <a class="item" data-tab="description">Description</a>
+    <a class="item" data-tab="description">Description Test</a>
 
 </nav>
 
@@ -67,7 +67,6 @@
             <div class="ability flexrow flex-group-center">
               <label for="system.abilities.{{key}}.value" class="resource-label rollable flexlarge align-left" data-roll="2d6+@abilities.{{key}}.value" data-label="{{ability.label}}">{{ability.label}}</label>
               <input type="text" name="system.abilities.{{key}}.value" value="{{ability.value}}" data-dtype="Number"/>
-              <span class="ability-mod rollable" data-roll="2d6+@abilities.{{key}}.value" data-label="{{ability.label}}">{{numberFormat ability.value decimals=0 sign=true}}</span>
             </div>
             {{/each}}
           </div>
